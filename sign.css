@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif
+}
+body{
+    background-color: rgb(0, 0, 0);
+}
+.unesh{
+    background-color: rgb(251, 252, 253);
+    text-align: center;
+    width: 300px;
+    padding: 2rem;
+    margin: auto;
+    margin-top: 150px;
+    border-radius: 10px;
+    box-shadow: 0 20px 30px rgb(0, 0 , 0 , 0.1);
+}
+h1{
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+form input{
+    width: 92%;
+    outline: none;
+    border: 1px solid #fff;
+    padding: 12px 18px;
+    margin-bottom: 8px;
+    border-radius: 20px;
+}
+button{
+    font-size: 1rem;
+    margin-top: 1rem;
+    padding: 10px 0;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    width: 90%;
+    color:#fff;
+    cursor: pointer;
+    background-color: rgb(25, 78, 121);
+}
+button:hover{
+    background: blue;
+}
+input:focus{
+    border: 1px solid rgb(192, 192, 192);
+}
+.terms{
+    margin-top: 0.2rem;
+}
+.terms input{
+    height: 1rem;
+    width: 1rem;
+    vertical-align: middle;
+    cursor: pointer;
+}
+.terms label{
+    font-size: 0.7rem;
+}
+.terms{
+    color: black;
+    text-decoration: none;
+}
+.member{
+    font-size: 0.8rem;
+    margin-top: 1.2rem;
+}
+.member a{
+    color: rgb(17, 107, 143);
+    text-decoration: none;
+}

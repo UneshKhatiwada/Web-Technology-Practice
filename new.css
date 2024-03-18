@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    margin-left: 50px;
+
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+.Me{
+    display: flex;
+    float: right;
+}
+.Me img{
+    margin-top: 2px;
+    margin-right: 800px;
+    width: 250px;
+    height: 300px;
+}
+#a, #b, #c{
+    margin-left: 50px;
+}
+#b, table{
+    width: 50%;
+}

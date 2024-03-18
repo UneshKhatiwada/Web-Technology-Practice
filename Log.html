@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in page</title>
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background-color: grey;
+}
+
+.log{
+    text-align: center;
+    width: 300px;
+    padding: 2rem;
+    margin: auto;
+    margin-top: 170px;
+    border-radius: 2rem;
+    box-shadow: 0 10px 100px rgb(0,0,0,2.5);
+    background-color: #ffffff;
+}
+input{
+    width: 150px;
+    height: 25px;
+    border-radius: 8px;
+}
+input::placeholder{
+    padding-inline: 10px;
+
+}
+label{
+    text-decoration: solid black;
+    font-size: 15px;
+}
+button{
+    width: 20%;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: cornflowerblue;
+}
+
+</style>
+</head>
+<body>
+    <div class="log">
+        <form>
+        <label>Username</label>
+        <input type="text" name="uname" placeholder="Enter your username">
+        <br><br>
+        <label>Password</label>
+        <input type="password" name="pwd" >
+        <br><br>
+        <button>Login</button>
+    </form>
+    </div>
+</body>
+</html>

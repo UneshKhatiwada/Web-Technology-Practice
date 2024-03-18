@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul{
+    background-color: black;
+    display: flex;
+    height: 60px;
+    margin-top: 20px;
+}
+li{
+    margin-right: 110px;
+    margin-top: 10px;
+}
+#logo{
+    color: orange;
+    font-size: larger;
+    margin-left: 20px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: orangered;
+}
+input{
+    border-radius: 5px;
+    height: 30px;
+    width: 200px;
+    margin-top: 10px;
+    margin-left: 500px;
+    margin-right: 10px;
+}
+button{
+    border-radius: 5px;
+    height: 30px;
+    width: 70px;
+    background-color: orange;
+    margin-top: 10px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: orangered;  
+}
+
